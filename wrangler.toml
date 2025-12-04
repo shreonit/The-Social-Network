@@ -1,0 +1,19 @@
+name = "sociate-api"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat", "stable"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sociate-db"
+database_id = "7f5e04e1-9c84-4046-9c55-02ea97130886"  # Replace with your actual D1 database ID
+
+# Routes (optional - for custom domain)
+# routes = [
+#   { pattern = "api.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
+
+# Environment variables (optional)
+# [vars]
+# ENVIRONMENT = "production"
+

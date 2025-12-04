@@ -1,0 +1,22 @@
+First do : 
+
+npm run dev 
+
+then open directory of ngrok use command : 
+
+cd C:\Users\shrey\Documents\Programming\Ngrok Social Network\ngrok-v3-stable-windows-amd64
+
+ngrok http --host-header=rewrite 5173
+ngrok http 5173
+
+
+then copy the site link of ngrok and update it to firebase authentication 
+
+you are good to go
+
+
+
+[[d1_databases]]
+binding = "sociate_db"
+database_name = "sociate-db"
+database_id = "7f5e04e1-9c84-4046-9c55-02ea97130886"
